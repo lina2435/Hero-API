@@ -1,0 +1,45 @@
+.superFont {
+    font-family: 'Bangers', cursive;
+}
+
+.img-search {
+    max-height: 40vh;
+    object-fit: cover;
+}
+
+.img-results {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.result-name {
+    color: white !important;
+}
+
+.back-icon {
+    font-size: 25px;
+}
+
+.back-icon a {
+    color: rgb(247, 0, 255);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .img-results {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .img-position {
+        top: 0;
+        position: sticky;
+    }
+}
