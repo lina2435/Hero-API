@@ -1,0 +1,23 @@
+.text-font {
+    align-items: center;
+    text-align: center;
+}
+
+.btn-team {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    transform: translateX(100%);
+}
+
+@media (max-width: 600px) {
+    .btn-detail {
+        display: grid;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 42px;
+        font-weight: bold;
+    }
+}
